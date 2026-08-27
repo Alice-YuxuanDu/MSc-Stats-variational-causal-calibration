@@ -1,0 +1,6 @@
+design,n,repetitions,process_threshold,raw_ate_threshold,corrected_ate_threshold
+synthetic,250,200,120,80,80
+synthetic,1000,200,240,120,120
+synthetic,2000,100,320,160,160
+ihdp,672,1000,280,200,160
+

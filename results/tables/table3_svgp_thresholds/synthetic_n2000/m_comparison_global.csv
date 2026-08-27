@@ -1,0 +1,2 @@
+run_name,run_dir,n,reps,draws,nominal_coverage,estimand,pi_clip,m_ate_raw,m_ate_raw_available_ranks,m_ate_corr,m_ate_corr_available_ranks,m_gp_raw,m_gp_raw_available_ranks,m_gp_raw_label,m_ate_raw_label,m_ate_corr_label,ate_raw_smaller_than_gp,ate_corr_smaller_than_raw,ate_corr_smaller_than_gp
+three_m_n2000_map_j1e8_r100,<source-workspace>/outputs/module5_svgp/three_m_n2000_map_j1e8_r100,2000,100,2000,0.95,population_ate_bb,0.02,160.0,"160,240,280,320,400,480,640",160.0,"160,240,280,320,400,480,640",320.0,"160,240,280,320,400,480,640",320,160,160,True,False,True

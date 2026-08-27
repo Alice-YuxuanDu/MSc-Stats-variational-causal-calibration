@@ -1,0 +1,17 @@
+{
+  "cal_bias_sd_tol": 0.25,
+  "cal_coverage_tol": 0.03,
+  "cal_sd_ratio_tol": 0.15,
+  "created_at": "2026-08-25T17:58:15",
+  "eq_mean_tol": 0.1,
+  "eq_sd_tol": 0.05,
+  "eq_width_tol": 0.05,
+  "estimand": "sample_ate",
+  "gp_cov_tol": 0.1,
+  "gp_mean_tol": 0.1,
+  "gp_q95_cov_tol": 0.2,
+  "gp_q95_mean_tol": 0.2,
+  "run_dirs": [
+    "<source-workspace>/outputs/module5_ihdp_svgp/ihdp_svgp_fixed_l10_la055_j1e8_r1000"
+  ]
+}

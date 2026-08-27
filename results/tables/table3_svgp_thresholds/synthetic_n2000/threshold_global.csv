@@ -1,0 +1,6 @@
+run_name,run_dir,n,reps,draws,nominal_coverage,estimand,pi_clip,kind,variant,target,method,reference_method,m_threshold_all_scenarios,available_ranks,n_scenarios
+three_m_n2000_map_j1e8_r100,<source-workspace>/outputs/module5_svgp/three_m_n2000_map_j1e8_r100,2000,100,2000,0.95,counterfactual_process,,gp_raw_eq,raw,exact_gp_counterfactual_posterior,svgp,exact_gp,320.0,"160,240,280,320,400,480,640",4
+three_m_n2000_map_j1e8_r100,<source-workspace>/outputs/module5_svgp/three_m_n2000_map_j1e8_r100,2000,100,2000,0.95,population_ate_bb,0.02,corrected_cal,corrected,true_ate_repeated_sampling,svgp_onestep_oracle_pi,true_value,,"160,240,280,320,400,480,640",4
+three_m_n2000_map_j1e8_r100,<source-workspace>/outputs/module5_svgp/three_m_n2000_map_j1e8_r100,2000,100,2000,0.95,population_ate_bb,0.02,corrected_eq,corrected,exact_gp_posterior,svgp_onestep_oracle_pi,exact_gp_onestep_oracle_pi,160.0,"160,240,280,320,400,480,640",4
+three_m_n2000_map_j1e8_r100,<source-workspace>/outputs/module5_svgp/three_m_n2000_map_j1e8_r100,2000,100,2000,0.95,population_ate_bb,0.02,raw_cal,raw,true_ate_repeated_sampling,svgp,true_value,,"160,240,280,320,400,480,640",4
+three_m_n2000_map_j1e8_r100,<source-workspace>/outputs/module5_svgp/three_m_n2000_map_j1e8_r100,2000,100,2000,0.95,population_ate_bb,0.02,raw_eq,raw,exact_gp_posterior,svgp,exact_gp,160.0,"160,240,280,320,400,480,640",4

@@ -1,0 +1,5 @@
+panel,curve,method,n_rff,n_inducing,dataset,scenario,estimand,plot_mode,reference_value,n_reps,bias,coverage,mean_ci_width,rmse,x_min,x_max,tail_quantile_each_side
+RFF GP,Raw posterior,rff_full_gaussian,200,,synthetic,strong_homogeneous,population_ate_bb,raw,1.0,200,-0.1034650948414389,0.9,0.5567936516361504,0.1661846570266533,0.55,1.4,0.005
+RFF GP,One-step corrected,rff_full_gaussian_onestep_logistic_pi,200,,synthetic,strong_homogeneous,population_ate_bb,raw,1.0,200,-0.012066739106485798,0.96,0.5662757554090163,0.1452455494849626,0.55,1.4,0.005
+Mean-field VI,Raw posterior,rff_meanfield_vi,200,,synthetic,strong_homogeneous,population_ate_bb,raw,1.0,200,-0.10313061705433821,1.0,1.347832113917691,0.16602073634311865,0.55,1.4,0.005
+Mean-field VI,One-step corrected,rff_meanfield_vi_onestep_logistic_pi,200,,synthetic,strong_homogeneous,population_ate_bb,raw,1.0,200,-0.01239278166483197,0.975,0.5969869448740248,0.14495994332681555,0.55,1.4,0.005

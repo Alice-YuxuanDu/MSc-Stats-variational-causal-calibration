@@ -1,0 +1,47 @@
+{
+  "beta_prior_sd": 1.0,
+  "center_y": true,
+  "data_path": "data/ihdp/ihdp_npci_1-1000.train.npz",
+  "draws": 2000,
+  "jitter": 1e-08,
+  "lengthscale_grid": [
+    10.0
+  ],
+  "lengthscale_mode": "map",
+  "level": 0.95,
+  "map_prior_la_median": 0.5,
+  "map_prior_log_sd_a": 0.5,
+  "map_prior_log_sd_x": 0.5,
+  "map_prior_lx_median": 10.0,
+  "mml_lengthscale_max": 50.0,
+  "mml_lengthscale_min": 0.05,
+  "mml_maxiter": 100,
+  "mml_restarts": 3,
+  "n_rff_grid": [
+    200
+  ],
+  "noise_sd_grid": [
+    0.5
+  ],
+  "pi_clip": 0.02,
+  "pi_logistic_c": 1.0,
+  "pi_model": "logistic",
+  "reps": 1000,
+  "run_name": "ihdp_rff_mfvi_map_j1e8_r1000",
+  "seed": 20260618,
+  "signal_sd_grid": [
+    1.0
+  ],
+  "source_hashes": {
+    "gp_exact.py": "20175dfc768303cc09b9f543e989505d2908271cd19959bc34dc9c2d80ff7df0",
+    "metrics.py": "0cd810a685608d55e1248cbbcb50823384552c7a4a261b60aa557a20130c2cbe",
+    "run_module4_ihdp_raw_rff.py": "2e743a4d5015b2f5c0fcd6d8591c940b0fc3f42ba52b89b69f5927b6293bd719",
+    "vi_rff.py": "60b6319298c11fac47a68b2d05cbe5305bbc9e9af4cb21219487037db7d51015"
+  },
+  "standardize_x": true,
+  "standardize_y": true,
+  "start_realization": 0,
+  "treatment_lengthscale_grid": [
+    0.5
+  ]
+}

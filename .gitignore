@@ -1,0 +1,33 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Generated experiment outputs
+outputs/
+tmp/
+
+# IHDP is downloaded separately (see data/README.md)
+data/ihdp/*.npz
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+

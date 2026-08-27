@@ -1,0 +1,5 @@
+panel,curve,method,n_rff,n_inducing,dataset,scenario,estimand,plot_mode,reference_value,n_reps,bias,coverage,mean_ci_width,rmse,x_min,x_max,tail_quantile_each_side
+Exact GP,Raw posterior,exact_gp,200,160,synthetic-svgp,strong_homogeneous,population_ate_bb,raw,1.0,200,-0.09448561510136574,0.94,0.5789364036708647,0.1555290784330881,0.55,1.4,0.005
+Exact GP,One-step corrected,exact_gp_onestep_logistic_pi,200,160,synthetic-svgp,strong_homogeneous,population_ate_bb,raw,1.0,200,-0.016561738889293645,0.975,0.5715773426523341,0.14027274296722292,0.55,1.4,0.005
+SVGP (m = 160),Raw posterior,svgp,200,160,synthetic-svgp,strong_homogeneous,population_ate_bb,raw,1.0,200,-0.09302137011694214,0.95,0.5892062121831658,0.15512413587571255,0.55,1.4,0.005
+SVGP (m = 160),One-step corrected,svgp_onestep_logistic_pi,200,160,synthetic-svgp,strong_homogeneous,population_ate_bb,raw,1.0,200,-0.013568166332161844,0.975,0.5899346872127613,0.14088122155315516,0.55,1.4,0.005

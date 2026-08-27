@@ -1,0 +1,51 @@
+{
+  "data_path": "data/ihdp/ihdp_npci_1-1000.train.npz",
+  "draws": 2000,
+  "jitter": 1e-08,
+  "lengthscale": 10.0,
+  "lengthscale_mode": "fixed",
+  "level": 0.95,
+  "map_prior_la_median": 0.55,
+  "map_prior_log_sd_a": 0.5,
+  "map_prior_log_sd_x": 0.5,
+  "map_prior_lx_median": 10.0,
+  "mml_lengthscale_max": 50.0,
+  "mml_lengthscale_min": 0.05,
+  "mml_maxiter": 100,
+  "mml_restarts": 3,
+  "n_inducing_grid": [
+    80,
+    120,
+    160,
+    200,
+    240,
+    280,
+    320,
+    400,
+    480
+  ],
+  "noise_sd": 0.5,
+  "pi_clip": 0.02,
+  "pi_logistic_c": 1.0,
+  "pi_logistic_max_iter": 1000,
+  "pi_model": "logistic",
+  "reps": 1000,
+  "run_name": "ihdp_svgp_fixed_l10_la055_j1e8_r1000",
+  "runtime_versions": {
+    "numpy": "1.26.4",
+    "pandas": "3.0.3",
+    "python": "3.11.10"
+  },
+  "seed": 20260714,
+  "signal_sd": 1.0,
+  "source_hashes": {
+    "gp_exact.py": "20175dfc768303cc09b9f543e989505d2908271cd19959bc34dc9c2d80ff7df0",
+    "posterior_correction.py": "897bd77ce0c6c9c47c5fa43a0191013ae6e92116bca575cc0a61ab317c2a4b9b",
+    "run_module5_ihdp_svgp.py": "f7209a6e0043db4943799ba5b2f7322dc7d69993bddcc407bb9ecd7b0fa6d9ae",
+    "svgp.py": "9eb8d01f4e8a5ffd08db84abae64e63a94f55ce992aa92608b49337e849ce296"
+  },
+  "standardize_x": true,
+  "standardize_y": true,
+  "start_realization": 0,
+  "treatment_lengthscale": 0.55
+}

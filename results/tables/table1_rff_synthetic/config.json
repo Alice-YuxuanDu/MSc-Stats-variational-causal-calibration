@@ -1,0 +1,54 @@
+{
+  "beta_prior_sd": 1.0,
+  "center_y": true,
+  "draws": 2000,
+  "jitter": 1e-08,
+  "lengthscale": 0.8,
+  "lengthscale_mode": "map",
+  "level": 0.95,
+  "map_prior_la_median": 0.5,
+  "map_prior_log_sd_a": 0.5,
+  "map_prior_log_sd_x": 0.5,
+  "map_prior_lx_median": 0.8,
+  "mml_lengthscale_max": 50.0,
+  "mml_lengthscale_min": 0.05,
+  "mml_maxiter": 100,
+  "mml_restarts": 3,
+  "n": 250,
+  "n_features": 5,
+  "n_rff_grid": [
+    200
+  ],
+  "noise_sd": 1.0,
+  "pi_clip_grid": [
+    0.02
+  ],
+  "pi_logistic_max_iter": 100,
+  "pi_logistic_ridge": 1.0,
+  "pi_logistic_tolerance": 1e-08,
+  "pi_model": "logistic",
+  "reps": 200,
+  "run_name": "map_mfvi_logistic_n250_r200_20260805",
+  "runtime_versions": {
+    "numpy": "1.26.4",
+    "pandas": "3.0.3",
+    "python": "3.11.10"
+  },
+  "scenarios": [
+    "strong_homogeneous",
+    "strong_heterogeneous",
+    "weak_homogeneous",
+    "weak_heterogeneous"
+  ],
+  "seed": 20260609,
+  "signal_sd": 1.0,
+  "source_hashes": {
+    "dgp.py": "edda26c648c869deca13cb3f466cbdf6605679226ea275a5f6ea0035fe5c3070",
+    "gp_exact.py": "20175dfc768303cc09b9f543e989505d2908271cd19959bc34dc9c2d80ff7df0",
+    "metrics.py": "0cd810a685608d55e1248cbbcb50823384552c7a4a261b60aa557a20130c2cbe",
+    "posterior_correction.py": "897bd77ce0c6c9c47c5fa43a0191013ae6e92116bca575cc0a61ab317c2a4b9b",
+    "run_module4_experiment_grid.py": "cdb0eb1c77841a9a4a07c4bc0b77bd997c7a69bfe2c61c20eecb0a09e8d7012b",
+    "vi_rff.py": "60b6319298c11fac47a68b2d05cbe5305bbc9e9af4cb21219487037db7d51015"
+  },
+  "treatment_lengthscale": 0.5
+}

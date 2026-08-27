@@ -1,0 +1,6 @@
+posterior,bias,rmse,coverage,mean_width,mean_sd
+full_rff_raw,-.0907,.3305,.982,1.5171,.3877
+full_rff_corrected,-.0576,.3039,.974,1.2311,.3133
+mean_field_raw,-.0903,.3346,1.000,7.0182,1.7922
+mean_field_corrected,-.0575,.3053,.972,1.1654,.2947
+

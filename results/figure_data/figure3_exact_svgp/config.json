@@ -1,0 +1,44 @@
+{
+  "center_y": true,
+  "draws": 2000,
+  "jitter": 1e-06,
+  "lengthscale": 0.8,
+  "level": 0.95,
+  "n": 250,
+  "n_features": 5,
+  "n_inducing_grid": [
+    80,
+    120,
+    160
+  ],
+  "noise_sd": 1.0,
+  "pi_clip_grid": [
+    0.02
+  ],
+  "pi_logistic_max_iter": 100,
+  "pi_logistic_ridge": 1.0,
+  "pi_logistic_tolerance": 1e-08,
+  "pi_model": "logistic",
+  "reps": 200,
+  "run_name": "svgp_selected_logistic_pi_r200",
+  "runtime_versions": {
+    "numpy": "1.26.4",
+    "pandas": "3.0.3",
+    "python": "3.11.10"
+  },
+  "scenarios": [
+    "strong_homogeneous",
+    "strong_heterogeneous",
+    "weak_homogeneous",
+    "weak_heterogeneous"
+  ],
+  "seed": 20260609,
+  "signal_sd": 1.0,
+  "source_hashes": {
+    "gp_exact.py": "21db8c68d314d8f289430357d4c7042fabddd1473ded927f8113fb8f55f96e91",
+    "posterior_correction.py": "897bd77ce0c6c9c47c5fa43a0191013ae6e92116bca575cc0a61ab317c2a4b9b",
+    "run_module5_svgp.py": "388852b128184154ea60cab2aacb6148f88e05143d272b3eb7997aaac10ffd73",
+    "svgp.py": "93ff8324737c89d809eb8aef898ef4d5f993404b88ec6e9a35b0a03202889297"
+  },
+  "treatment_lengthscale": 0.5
+}

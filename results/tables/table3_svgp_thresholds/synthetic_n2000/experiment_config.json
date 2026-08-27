@@ -1,0 +1,59 @@
+{
+  "center_y": true,
+  "draws": 2000,
+  "jitter": 1e-08,
+  "lengthscale": 0.8,
+  "lengthscale_mode": "map",
+  "lengthscale_selection_csv": null,
+  "lengthscale_selection_sha256": null,
+  "level": 0.95,
+  "map_prior_la_median": 0.5,
+  "map_prior_log_sd_a": 0.5,
+  "map_prior_log_sd_x": 0.5,
+  "map_prior_lx_median": 0.8,
+  "mml_lengthscale_max": 50.0,
+  "mml_lengthscale_min": 0.05,
+  "mml_maxiter": 100,
+  "mml_restarts": 3,
+  "n": 2000,
+  "n_features": 5,
+  "n_inducing_grid": [
+    160,
+    240,
+    280,
+    320,
+    400,
+    480,
+    640
+  ],
+  "noise_sd": 1.0,
+  "pi_clip_grid": [
+    0.02
+  ],
+  "pi_logistic_max_iter": 100,
+  "pi_logistic_ridge": 1.0,
+  "pi_logistic_tolerance": 1e-08,
+  "pi_model": "oracle",
+  "reps": 100,
+  "run_name": "three_m_n2000_map_j1e8_r100",
+  "runtime_versions": {
+    "numpy": "1.26.4",
+    "pandas": "3.0.3",
+    "python": "3.11.10"
+  },
+  "scenarios": [
+    "strong_homogeneous",
+    "strong_heterogeneous",
+    "weak_homogeneous",
+    "weak_heterogeneous"
+  ],
+  "seed": 20260609,
+  "signal_sd": 1.0,
+  "source_hashes": {
+    "gp_exact.py": "20175dfc768303cc09b9f543e989505d2908271cd19959bc34dc9c2d80ff7df0",
+    "posterior_correction.py": "897bd77ce0c6c9c47c5fa43a0191013ae6e92116bca575cc0a61ab317c2a4b9b",
+    "run_module5_svgp.py": "87d321b5fc30c49a3009f064fa11b4bef6591d6f0de54010317edf83a900ed62",
+    "svgp.py": "9eb8d01f4e8a5ffd08db84abae64e63a94f55ce992aa92608b49337e849ce296"
+  },
+  "treatment_lengthscale": 0.5
+}
